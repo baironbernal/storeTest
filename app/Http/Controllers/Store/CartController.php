@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Store;
 
 use Gloudemans\Shoppingcart\Facades\Cart;
 use Illuminate\Http\Request;
@@ -14,7 +14,7 @@ class CartController extends Controller
      */
     public function addToCart()
     {
-        //`
+        
     }
 
     public function updateCart()
