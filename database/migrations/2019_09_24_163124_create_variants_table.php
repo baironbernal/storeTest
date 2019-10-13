@@ -21,7 +21,6 @@ class CreateVariantsTable extends Migration
             $table->string('color')->nullable();
             $table->bigInteger('product_id')->unsigned();
             $table->foreign('product_id')->references('id')->on('products');  
-            $table->decimal('price')->default(0);
             $table->integer('status')->default(1);
             $table->timestamps();
             $table->softDeletes();	

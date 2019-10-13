@@ -16,6 +16,5 @@ $factory->define(Variant::class, function (Faker $faker) {
         "ref"=> $faker->numberBetween($min = 10, $max = 100) ,
         "color" => $faker->name,
         "product_id" => $productRandom[0]->id,
-        "price" => $faker->numberBetween($min = 1, $max = 10000) ,
     ];
 });
